@@ -24,10 +24,14 @@ export default function RootLayout({ children }) {
           selection:bg-amber-200
         "
       >
-        {/* Main Content Layer */}
+        {/* Main Wrapper */}
         <div className="relative flex flex-col min-h-screen">
+
           {/* Navbar */}
-          <Navbar className="shadow-md z-20" />
+          <Navbar className="shadow-md z-50" />
+
+          {/* Spacer for Fixed Navbar */}
+          <div className="h-[72px] md:h-[80px]"></div>
 
           {/* Page Content */}
           <main className="flex-grow px-6 md:px-12 py-10">
