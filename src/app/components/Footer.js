@@ -40,8 +40,8 @@ export default function Footer() {
 
       {/* Bottom Note */}
       <div className="border-t border-amber-800 mt-6 pt-4 text-center text-xs text-amber-400 tracking-wide">
-        © {new Date().getFullYear()} <span className="font-semibold">Woodify</span>. 
-        Handcrafted with <span className="text-red-400">❤️</span> in Kenya.
+        <span className="font-semibold">Woodify</span>. 
+        Handcrafted with <span className="text-red-400">craftsmanship</span> 
       </div>
     </footer>
   );
